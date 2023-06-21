@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "repl-key-server"
+version = "0.1.0"
+description = "A server run on replit to use replit's public keys elsewhere"
+authors = ["PotentialStyx <62217716+PotentialStyx@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+flask = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
