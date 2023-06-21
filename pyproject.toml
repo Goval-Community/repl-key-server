@@ -3,6 +3,7 @@ name = "repl-key-server"
 version = "0.1.0"
 description = "A server run on replit to use replit's public keys elsewhere"
 authors = ["PotentialStyx <62217716+PotentialStyx@users.noreply.github.com>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.7"
